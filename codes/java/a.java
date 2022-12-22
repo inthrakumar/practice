@@ -1,11 +1,11 @@
-public class a{
+public class a {
     public static void main(String[] args) {
         int st=0;
         for(int i=1;i<=9;i++){
             if(i>5){
                 --st;
             }else{
-                ++st;
+                ++st;efrjv ekjvneklvjn rev livj
             }
 
             for(int j=0;j<st;j++){
@@ -18,11 +18,4 @@ public class a{
         }
    }
 
-        
-      
-        
-
-
-        
-    
 }
