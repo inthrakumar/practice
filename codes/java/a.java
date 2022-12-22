@@ -1,4 +1,5 @@
-public class a {
+
+public class a {// got it
     public static void main(String[] args) {
         int st = 0;
         for (int i = 1; i <= 9; i++) {
@@ -15,5 +16,6 @@ public class a {
 
         }
     }
+
 
 }
