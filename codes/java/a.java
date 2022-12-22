@@ -3,7 +3,7 @@ public class a{
         int st=0;
         for(int i=1;i<=9;i++){
             if(i>5){
-                --st;
+                --st;//this is a edit 
             }else{
                 ++st;
             }
