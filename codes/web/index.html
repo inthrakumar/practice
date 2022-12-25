@@ -8,50 +8,61 @@
     <title>NAVIGATION BAR</title>
 </head>
 <body>
-    <table style="margin-left: 130px;">
-        <caption style="color: coral;"> <h1>INFO ABOUT BIRDS</h1></caption>
-        <br>
-        <br>
-        <thead>
-            <tr>
-               <th scope="column" style="font-size: x-large;" rowspan="2">NAMES   </th>
-               <th scope="column"style="font-size: x-large;" colspan="2">WEIGHT</th>
-               <th scope="column"style="font-size: x-large;"rowspan="2">PERSEPTION</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-               <td>duck </td>
-               <td>23.3</td>
-               <td>23.3</td>
-               <td>this is a crazy thing</td>
-            </tr>
-            <tr>
-               <td>ostrich </td>
-               <td>23.3</td>
-               <td>23.3</td>
-               <td>this is a crazy thing</td>
-            </tr>
-            <tr>
-               <td>crow </td>
-               <td>23.3</td>
-               <td>23.3</td>
-               <td>this is a crazy thing</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-               <td>pigeon </td>
-               <td>23.3</td>
-               <td>23.3</td>
-               <td>this is a crazy thing</td>
-            </tr>
-        </tfoot>
+    <form action="got.js">
+    <div style="margin: 10px;">
+        <label for="name">ENTER YOUR NAME:</label>
+        <input type="text" name="name" id="name"  size="34" placeholder="User-Name" >
+    </div>
+    <div style="margin: 10px;">
+        <label for="password">ENTER THE PASSWORD</label>
+        <input type="password" name="password" id="password" placeholder="password">
+    </div>
+    <div style="margin: 10px;">
+        <h4>Enter the Preferred Course:</h4>
+        <input type="checkbox" name="cs" id="checkbox">
+        <label for="checkbox">CS</label><br>
+        <input type="checkbox" name="ECE" id="checkboxA">
+        <label for="checkboxA">ECE</label><br>
+        <input type="checkbox" name="chemical" id="checkboxb">
+        <label for="checkboxb">Chemical</label>
+    </div>
+    <div style="margin: 10px;">
+        <h4>Enter the year:</h4>
+        <input type="radio" name="year" id="checkbox"value="1">
+        <label for="checkbox">1</label><br>
+        <input type="radio" name="year" id="checkboxA"value="2">
+        <label for="checkboxA">2</label><br>
+        <input type="radio" name="year" id="checkboxb"value="3">
+        <label for="checkboxb">3</label><br>
+        <input type="radio" name="year" id="checkboxc"value="4">
+        <label for="checkboxc">4</label><br>
+
+    </div>
+    <div style="margin: 10px;">
+        <h3><label for="enter your car model">Enter Your Car Brand</label></h3>
+        <select name="model" id="enter your car model">
+            <option value="Tops Brands">Tops Brands</option>
+            <option value="BMW">BMW</option>
+            <option value="LAMBORGINI">LAMBORGINI</option>
+            <option value="AUDI">AUDI</option>
+            <option value="ROLLS ROYCE">ROLLS ROYCE</option>
+
+        </select>
+
+    </div>
+    <div style="margin:10px;">
+        <label for="volume">Entertainment</label>
+        <input type="range" name="volume" id="volume" max="0" min="100" step="5">
+    </div>
+    <div style="margin:15px;">
+        <label for="feed"style="display:block;">Enter your feedback    </label>
+        <textarea name="feedback" id="feed" cols="30" rows="10"></textarea>
+    </div>
 
 
 
-    </table>
-
+    <input type="submit" value="close">
+    </form>
     
 </body>
 </html>
