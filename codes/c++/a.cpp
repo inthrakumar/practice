@@ -3,10 +3,18 @@
 using namespace std;
 int main()
 {
-    int x;
-    string ak;
-    cout << "enter the string \n";
-    getline(cin, ak);
-    cout << ak;
+    for (int i = 5; i > 0; i--)
+    {
+        int u = 5 - i;
+        for (int g = 0; g < u; g++)
+        {
+            cout << "  ";
+        }
+        for (int j = 0; j < i; j++)
+        {
+            cout << "* ";
+        }
+        cout << "\n";
+    }
     return 0;
 }
