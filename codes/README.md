@@ -24,7 +24,11 @@ I am interested on the fields like
 [![instagram](https://img.shields.io/badge/instagram-8a5099?style=for-the-badge&logo=instagram&logoColor=red)](https://www.linkedin.com/)
 
 
-# Languages I am using
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=myusername&theme=tokyonight)
+## Languages I am familiar with:
+- CPP
+- JAVA
+- PYTHON
+- JAVASCRIPT
+- C
 
 
