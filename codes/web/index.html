@@ -5,63 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>NAVIGATION BAR</title>
+    <title>RACE REGISTRATION</title>
 </head>
 <body>
-    <form action="got.js">
-    <div style="margin: 10px;">
-        <label for="name">ENTER YOUR NAME:</label>
-        <input type="text" name="name" id="name"  size="34" placeholder="User-Name" >
-    </div>
-    <div style="margin: 10px;">
-        <label for="password">ENTER THE PASSWORD</label>
-        <input type="password" name="password" id="password" placeholder="password">
-    </div>
-    <div style="margin: 10px;">
-        <h4>Enter the Preferred Course:</h4>
-        <input type="checkbox" name="cs" id="checkbox">
-        <label for="checkbox">CS</label><br>
-        <input type="checkbox" name="ECE" id="checkboxA">
-        <label for="checkboxA">ECE</label><br>
-        <input type="checkbox" name="chemical" id="checkboxb">
-        <label for="checkboxb">Chemical</label>
-    </div>
-    <div style="margin: 10px;">
-        <h4>Enter the year:</h4>
-        <input type="radio" name="year" id="checkbox"value="1">
-        <label for="checkbox">1</label><br>
-        <input type="radio" name="year" id="checkboxA"value="2">
-        <label for="checkboxA">2</label><br>
-        <input type="radio" name="year" id="checkboxb"value="3">
-        <label for="checkboxb">3</label><br>
-        <input type="radio" name="year" id="checkboxc"value="4">
-        <label for="checkboxc">4</label><br>
+    <form action="/got">
+        <caption style="margin:15px;">Pls Enter The Details</caption>
+        <div style="margin:15px">
+           <label for="first">First Name</label>
+           <input type="text"id="first" name="first name">
+           <label for="last">Last Name</label>
+           <input type="text"id="last" name="last name">
+        </div>
+        <div style="margin:15px">
+            <label for=""><h3>Pls Enter Race</h3></label>
+            <input type="radio"name="race"id="relay"value="realy">
+            <label for="relay">Relay</label><br>
+            <input type="radio"name="race"id="100 mts"value="100 mts">
+            <label for="100 mts">100 mts</label><br>
+            <input type="radio"name="race"id="200 mts"value="200 mts">
+            <label for="200 mts">200 mts</label>
+        </div >
+        <div style="margin:15px">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div style="margin:15px">
+            <label for="pass">password:</label>
+            <input type="password" name="passw" id="pass">
+        </div>
+        <div style="margin: 15px;">
+            <label for="select">Enter your age</label>
+            <select name="age" id="select">
+                <option value="age">age</option>
+                <option value="below 18">below 18</option>
+                <option value="18-30">18-30</option>
+                <option value="31-50">31-50</option>
+            </select>
+        </div>
+        <div style="margin:15px;">
+            <button type="submit">submit</button>
+        </div>
 
-    </div>
-    <div style="margin: 10px;">
-        <h3><label for="enter your car model">Enter Your Car Brand</label></h3>
-        <select name="model" id="enter your car model">
-            <option value="Tops Brands">Tops Brands</option>
-            <option value="BMW">BMW</option>
-            <option value="LAMBORGINI">LAMBORGINI</option>
-            <option value="AUDI">AUDI</option>
-            <option value="ROLLS ROYCE">ROLLS ROYCE</option>
+ 
 
-        </select>
-
-    </div>
-    <div style="margin:10px;">
-        <label for="volume">Entertainment</label>
-        <input type="range" name="volume" id="volume" max="0" min="100" step="5">
-    </div>
-    <div style="margin:15px;">
-        <label for="feed"style="display:block;">Enter your feedback    </label>
-        <textarea name="feedback" id="feed" cols="30" rows="10"></textarea>
-    </div>
-
-
-
-    <input type="submit" value="close">
     </form>
     
 </body>
