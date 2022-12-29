@@ -3,18 +3,15 @@
 using namespace std;
 int main()
 {
-    for (int i = 5; i > 0; i--)
+    int y;
+    cout << "enter the number of items \n";
+    cin >> y;
+    int a[y];
+    cout << "enter the elements \n";
+    for (int i = 0; i < y; i++)
     {
-        int u = 5 - i;
-        for (int g = 0; g < u; g++)
-        {
-            cout << "  ";
-        }
-        for (int j = 0; j < i; j++)
-        {
-            cout << "* ";
-        }
-        cout << "\n";
+        cin >> a[i];
     }
+
     return 0;
 }
