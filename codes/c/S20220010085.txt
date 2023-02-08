@@ -1,0 +1,167 @@
+// output 1
+The data before modification     
+ the details of the 1 student    
+The name is inthra
+ The roll_no:1
+ The branch:cse
+ phone no:1234567890
+ the details of the 2 student    
+The name is naveen
+ The roll_no:2
+ The branch:ece
+ phone no:1234567889
+ the details of the 3 student    
+The name is yashwanth
+ The roll_no:3
+ The branch:cse
+ phone no:1234567123
+ the details of the 4 student    
+The name is anshika
+ The roll_no:4
+ The branch:mech
+ phone no:1234567890
+ the details of the 5 student    
+The name is ishan 
+ The roll_no:5
+ The branch:cse
+ phone no:1235467890
+Enter the new branch of 2 student
+chemical
+Enter the new branch of 4 student
+chemical
+The data after modification  
+ the details of the 1 student
+The name is inthra
+ The roll_no:1
+ The branch:cse
+ phone no:1234567890
+ the details of the 2 student
+The name is naveen
+ The roll_no:2
+ The branch:chemical
+ phone no:1234567889
+ the details of the 3 student
+The name is yashwanth
+ The roll_no:3
+ The branch:cse
+ phone no:1234567123
+ the details of the 4 student
+The name is anshika
+ The roll_no:4
+ The branch:chemical
+ phone no:1234567890
+ the details of the 5 student
+The name is ishan
+ The roll_no:5
+ The branch:cse
+ phone no:1235467890
+
+
+
+// output 2
+Name: Yashwanth
+Email Address: yashwanth.s22@iiits.T.A.Nagar
+Postal Address:
+        Street: T.A.Nagar
+        City: Tiruvannamalai
+State Tamil NaduPincode :606601
+Name: inthra
+Email Address: inthrakumar.s22@iiits.in
+Postal Address:
+        Street: T.nagar
+        City: Tiruvan
+State Tamil NaduPincode :606601
+Name: anshika
+Email Address: yash.s22@iiits.in
+Postal Address:
+        Street:  sidcoNagar
+        City: Trichy
+State Tamil NaduPincode :606601
+Name: Yash
+Email Address: yash.s22@iiits.in
+Postal Address:
+        Street:  anna Nagar
+        City: Tirupathi
+State Tamil NaduPincode :606601
+Name: Yuvanesh
+Email Address: yhuvan.a22@gmail.com
+Postal Address:
+        Street:  periyar Nagar
+        City: got it
+State Tamil NaduPincode :606601
+
+
+// output 3
+PS F:\coding\practice\codes\c> cd "f:\coding\practice\codes\c\" ; if ($?) { gcc a2.c -o a2 } ; if ($?) { .\a2 }
+Enter the details of the student 1:
+Enter one of the choices:
+ 1-name 2-rollno
+1
+inthra 97
+Enter the details of the student 2:
+Enter one of the choices:
+ 1-name 2-rollno
+2
+12 89
+Enter the details of the student 3:
+Enter one of the choices:
+ 1-name 2-rollno
+1
+naveen 87
+Enter the details of the student 4:
+Enter one of the choices:
+ 1-name 2-rollno
+2
+18 85
+Enter the details of the student 5:
+Enter one of the choices:
+ 1-name 2-rollno
+1
+jananathan 100
+
+
+The details of Student 1:
+The name is:inthra
+The mark is 97
+The details of Student 2:
+The roll_no is 12
+ The marks is 89
+The details of Student 3:
+The name is:naveen
+The mark is 87
+The details of Student 4:
+The roll_no is 18
+ The marks is 85
+The details of Student 5:
+The name is:jananathan
+The mark is 100
+
+//output 4
+
+PS F:\coding\practice\codes\c> cd "f:\coding\practice\codes\c\" ; if ($?) { gcc a2.c -o a2 } ; if ($?) { .\a2 }
+Enter one of the following options
+1-reactangle
+2-square
+3-triangle
+2
+Enter the side of the square
+12
+The area of the square is 144  
+PS F:\coding\practice\codes\c> cd "f:\coding\practice\codes\c\" ; if ($?) { gcc a2.c -o a2 } ; if ($?) { .\a2 }
+Enter one of the following options
+1-reactangle
+2-square
+3-triangle
+3
+Enter the sides of the triangle
+3 4 5
+The area of the triangle is 6.000000
+PS F:\coding\practice\codes\c> cd "f:\coding\practice\codes\c\" ; if ($?) { gcc a2.c -o a2 } ; if ($?) { .\a2 }
+Enter one of the following options
+1-reactangle
+2-square
+3-triangle
+1
+Enter the length and breadth of the rectangle
+12 13
+The area of the rectangle is 156

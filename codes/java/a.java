@@ -1,29 +1,20 @@
-<<<<<<< HEAD
 public class a {
-=======
 
-public class a {// got it
->>>>>>> af5275a91a8ef0f55636c71f4f70899c48e079d6
     public static void main(String[] args) {
-        int st = 0;
-        for (int i = 1; i <= 9; i++) {
-            if (i > 5) {
-                --st;
-            } else {
-                ++st;
-            }
+        int v = 4;
+        int u = 8;
 
-            for (int j = 0; j < st; j++) {
-                System.out.print("* ");
+        for (int i = 1; i <= 5; i++) {
+            for (int b = 0; b < v; b++) {
+                System.out.print(" ");
             }
-            System.out.println(" ");
+            for (int b = 0; b < 5; b++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+            --v;
 
         }
+
     }
-
-<<<<<<< HEAD
 }
-=======
-
-}
->>>>>>> af5275a91a8ef0f55636c71f4f70899c48e079d6
